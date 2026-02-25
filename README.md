@@ -7,7 +7,6 @@
 ## Overview
 
 Submits jobs (callables) to a priority queue; worker threads pull and execute. Higher priority runs first. Protects shared state with locks.
-
 Graceful shutdown: workers finish current job, then exit on empty queue.
 
 ---
